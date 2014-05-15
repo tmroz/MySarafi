@@ -14,13 +14,14 @@
 		C49586AA1923EA9900BD6935 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49586A91923EA9900BD6935 /* main.m */; };
 		C49586AE1923EA9900BD6935 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49586AD1923EA9900BD6935 /* AppDelegate.m */; };
 		C49586B11923EA9900BD6935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49586AF1923EA9900BD6935 /* Main.storyboard */; };
-		C49586B41923EA9900BD6935 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49586B31923EA9900BD6935 /* ViewController.m */; };
+		C49586B41923EA9900BD6935 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49586B31923EA9900BD6935 /* WebViewController.m */; };
 		C49586B61923EA9900BD6935 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49586B51923EA9900BD6935 /* Images.xcassets */; };
 		C49586BD1923EA9900BD6935 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49586BC1923EA9900BD6935 /* XCTest.framework */; };
 		C49586BE1923EA9900BD6935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C495869D1923EA9900BD6935 /* Foundation.framework */; };
 		C49586BF1923EA9900BD6935 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49586A11923EA9900BD6935 /* UIKit.framework */; };
 		C49586C71923EA9900BD6935 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49586C51923EA9900BD6935 /* InfoPlist.strings */; };
 		C49586C91923EA9900BD6935 /* MySafariTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49586C81923EA9900BD6935 /* MySafariTests.m */; };
+		C49586D31923EAB000BD6935 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49586D21923EAB000BD6935 /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,15 @@
 		C49586AC1923EA9900BD6935 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C49586AD1923EA9900BD6935 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C49586B01923EA9900BD6935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C49586B21923EA9900BD6935 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C49586B31923EA9900BD6935 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C49586B21923EA9900BD6935 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		C49586B31923EA9900BD6935 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		C49586B51923EA9900BD6935 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C49586BB1923EA9900BD6935 /* MySafariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySafariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49586BC1923EA9900BD6935 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C49586C41923EA9900BD6935 /* MySafariTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySafariTests-Info.plist"; sourceTree = "<group>"; };
 		C49586C61923EA9900BD6935 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C49586C81923EA9900BD6935 /* MySafariTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySafariTests.m; sourceTree = "<group>"; };
+		C49586D21923EAB000BD6935 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../Desktop/CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49586D31923EAB000BD6935 /* CheckMate.framework in Frameworks */,
 				C49586A01923EA9900BD6935 /* CoreGraphics.framework in Frameworks */,
 				C49586A21923EA9900BD6935 /* UIKit.framework in Frameworks */,
 				C495869E1923EA9900BD6935 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		C495869C1923EA9900BD6935 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C49586D21923EAB000BD6935 /* CheckMate.framework */,
 				C495869D1923EA9900BD6935 /* Foundation.framework */,
 				C495869F1923EA9900BD6935 /* CoreGraphics.framework */,
 				C49586A11923EA9900BD6935 /* UIKit.framework */,
@@ -115,8 +119,8 @@
 				C49586AC1923EA9900BD6935 /* AppDelegate.h */,
 				C49586AD1923EA9900BD6935 /* AppDelegate.m */,
 				C49586AF1923EA9900BD6935 /* Main.storyboard */,
-				C49586B21923EA9900BD6935 /* ViewController.h */,
-				C49586B31923EA9900BD6935 /* ViewController.m */,
+				C49586B21923EA9900BD6935 /* WebViewController.h */,
+				C49586B31923EA9900BD6935 /* WebViewController.m */,
 				C49586B51923EA9900BD6935 /* Images.xcassets */,
 				C49586A41923EA9900BD6935 /* Supporting Files */,
 			);
@@ -249,7 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49586B41923EA9900BD6935 /* ViewController.m in Sources */,
+				C49586B41923EA9900BD6935 /* WebViewController.m in Sources */,
 				C49586AE1923EA9900BD6935 /* AppDelegate.m in Sources */,
 				C49586AA1923EA9900BD6935 /* main.m in Sources */,
 			);
@@ -376,6 +380,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tom.mroz/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MySafari/MySafari-Prefix.pch";
 				INFOPLIST_FILE = "MySafari/MySafari-Info.plist";
@@ -389,6 +397,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tom.mroz/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MySafari/MySafari-Prefix.pch";
 				INFOPLIST_FILE = "MySafari/MySafari-Info.plist";
